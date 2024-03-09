@@ -249,17 +249,6 @@ a{
     border-radius: 50%;
     margin-top: -6px;
 }
-/* .album{
-    display: flex;
-    justify-content: start;
-    height: 90%;
-    margin-left: 0.5rem;
-}
-.album img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 .album{
     display: flex;
     height:3.5rem;
@@ -270,13 +259,7 @@ a{
     flex-direction: column;
     margin-left: 1rem;
     vertical-align: baseline;
-}
-
-/* .play-song{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    /* padding: 1rem; */ 
+} 
 .play-song-title{
     height:1.2rem;
     width:7rem;
@@ -340,7 +323,16 @@ a{
 .premium:hover{
     transform: scale(1.05);
 }
+.head2{
+    display: inline;
+}
+.head2{
+    display: inline;
+    justify-content: center;
+}
 .show{
+    display: inline;
+    justify-content: center;
     font-size: 0.875rem;
     color: #b3b3b3;
     width: 3.55rem;
