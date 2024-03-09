@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="icon" href="./logo.png">
+            <title>Spotify - Web Player: Music for everyone</title>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        </head>
+        <body>
+            <div class="main">
+                <div class="sidebar">
+                    <div class="nav">
+                        <div class="nav-option" style="opacity: 1;">
+                            <i class="fa-solid fa-house"></i>
+                            <a href="#" class="home">Home</a>
+                        </div>
+                        <div class="nav-option">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <a href="#">Search</a>
+                        </div>
+                    </div>
+
+                                <!-- sidebarlibrary -->
+
+                    <div class="library">
+                        <div class="option">
+                            <div class="lib-option nav-option">
+                                <img src="./library_icon.png" alt="library">
+                                <a href="#">Your Library</a>
+                            </div>
+                            <div class="icons">
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                        <div class="lib-box">
+                            <div class="box premium">
+                                <p class="box-p1">Create your first playlist</p>
+                                <p class="box-p2">It's easy, we'll help you</p>
+                                <button class="badge">create playlist</button>
+                            </div>
+                            <div class="box premium">
+                                <p class="box-p1">Let's find some podcast to follow</p>
+                                <p class="box-p2">We'll keep you updated on new episode</p>
+                                <button class="badge">Browse podcast</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- mainbody -->
+                <div class="main-content">
+                    <div class="sticky-nav">
+                        <div class="sticky-nav-icons">
+                            <i class="fa-solid fa-chevron-left"></i>
+                            <i class="fa-solid fa-chevron-right"></i>
+                            <!-- <img src="./backward_icon.png"/>
+                            <img src="./forward_icon.png " class="hide"/> -->
+                        </div>
+                        <div class="sticky-nav-options">
+                            <button class="badge nav-item hide premium">Explore Premium</button>
+                            <button class="badge nav-item dark-badge premium"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                            <i class="fa-regular fa-bell premium hii"></i>
+                            <i class="fa-regular fa-user nav-item premium hii"></i>
+                        </div>    
+                    </div>
+                    <h2>Recently played <span class="show"><a>Show All</a></span></h2>
+                    <div class="cards-container">
+                            <div class="card">
+                                <img src="./card1img.jpeg" class="card-img"/>
+                                <p class="card-title"><a href="#">Top 50 - Global</a></p>
+                                <p class="card-info">Your daily updates of the most played...</p>
+                            </div>
+                    </div>
+
+                    <h2>Trending now near you <span class="show"><a>Show All</a></span> </h2>
+                    <div class="cards-container">
+                            <div class="card">
+                                <img src="./card2img.jpeg" class="card-img"/>
+                                <p class="card-title"><a href="">Mahiye Jinna Sohna</a></p>
+                                <p class="card-info"> by Darshan Raval weaves a tale of love....</p>
+                            </div>
+
+                            <div class="card">
+                                <img src="./card3img.jpeg" class="card-img"/>
+                                <p class="card-title"><a href="">Top 20-Rahat Fateh Ali Khan</a></p>
+                                <p class="card-info">Here are Top 20 Songs by Rahat Fat...</p>
+                            </div>
+
+                            <div class="card">
+                                <img src="./card4img.jpeg" class="card-img"/>
+                                <p class="card-title"><a href="">Top 50 - Bollywood</a></p>
+                                <p class="card-info">Catch all the latest music you follow...</p>
+                            </div>
+                            <div class="card">
+                                <img src="./card2img.jpeg" class="card-img"/>
+                                <p class="card-title"><a href=""></a>Top 50 - Global</p>
+                                <p class="card-info">Your daily updates of the most played...</p>
+                            </div>
+                            <div class="card">
+                                <img src="./card1img.jpeg" class="card-img"/>
+                                <p class="card-title"><a href="">Top 50 - Global</a></p>
+                                <p class="card-info">Your daily updates of the most played...</p>
+                            </div>    
+                    </div>
+                    <h2>Featured Charts <span class="show"><a>Show All</a></span></h2>
+                    <div class="cards-container">
+                        <div class="card">
+                            <img src="./card5img.jpeg" class="card-img"/>
+                            <p class="card-title"><a href="">Top 50 - Global</a></p>
+                            <p class="card-info">Your daily updates of the most played...</p>
+                        </div>
+                        <div class="card">
+                            <img src="./card6img.jpeg" class="card-img"/>
+                            <p class="card-title"><a href="">Top 50 - Global</a></p>
+                            <p class="card-info">Your daily updates of the most played...</p>
+                        </div>
+                        <div class="card">
+                            <img src="./card1img.jpeg" class="card-img"/>
+                            <p class="card-title"><a href="">Top 50 - Global</a></p>
+                            <p class="card-info">Your daily updates of the most played...</p>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <div class="line"></div>
+                    </div>
+                    </div>   
+                <div class="music-player">
+                    <div class="album">
+                        <img src="./card3img.jpeg">
+                        <div class="play-song">
+                            <a href="#" class="play-song-title">Sanso Ki Mala</a>
+                            <a href="#" class="artist">Rahat Fateh Ali Khan</a>
+                        </div>
+
+
+                        <!-- button -->
+
+
+                        <div class="favourite">
+                            <i class="fa-regular fa-heart heart"></i>
+                        </div>
+
+
+
+                    </div>
+                    <div class="player">
+                        <div class="player-controls">
+                            <img src="./player_icon1.png" class="player-control-icon">
+                            <img src="./player_icon2.png" class="player-control-icon">
+                            <img src="./player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                            <img src="./player_icon4.png" class="player-control-icon">
+                            <img src="./player_icon5.png" class="player-control-icon">
+                        </div>
+                        <div class="playback-bar">
+                            <span class="curr-time">00.00</span>
+                            <input type="range" min="0" max="100" class="progress-bar" step="1">
+                            <span class="tot-time">3.33</span>
+                        </div>
+                    </div>
+                    <div class="controls">
+                        <div class="extracontrol">
+                            <i class="fa-regular fa-square-caret-right"></i>
+                            <i class="fa-solid fa-music"></i>
+                            <i class="fa-solid fa-bars"></i>
+                            <i class="fa-regular fa-id-badge"></i>
+                            <i class="fa-solid fa-volume-low"></i>
+                            <input type="range" min="0" max="100" class="hibru" step="1">
+                            <i class="fa-regular fa-id-badge"></i>
+                            <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                        </div>
+                    </div>
+            </div>
+        </body>
+    </html>
