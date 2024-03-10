@@ -130,6 +130,9 @@ a{
     font-size: 1.5rem;
     opacity: 1;
 }
+.sticky-nav-icons i{
+    padding-left: 1rem;
+}
 .sticky-nav-icons i:hover{
     transform: scale(1.1);
 }
@@ -165,10 +168,11 @@ a{
 }
 .card {
     background-color: #171515;
-    width: 150px;
+    width: 155px;
     border-radius: 0.5rem;
-    padding: 1rem;
-    margin-left: 1.5rem;
+    padding: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
     cursor: pointer;
 }
 .cards-container{
@@ -266,7 +270,9 @@ a{
 .album{
     display: flex;
     height:3.5rem;
-   
+}
+.album img {
+    padding-left: 0.5rem;
 }
 .play-song{
     display: flex;
@@ -344,20 +350,28 @@ a{
     transform: scale(1.05);
     cursor: pointer;
 }
-h2{
-    display: inline;
+.head2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    padding-top: 2rem;
 }
-.show{
-    display: inline;
-    font-size: 0.875rem;
-    color: #b3b3b3;
-    /* width: 3.55rem;
-    height: 1.2rem; */
-    margin-left: 93%;
-    cursor: pointer;
+
+.head2 h2 {
+    margin: 0;
+}
+
+.head2 .show {
+    margin: 0;
 }
 .show a:hover{
     text-decoration: underline;
+}
+.show{
+    font-size: 0.875rem;
+    color: #b3b3b3;
+    cursor: pointer;
 }
 .card:hover{
     background-color: #232323;
