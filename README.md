@@ -1,1 +1,1 @@
-this is a demo of spotify
+demo --> https://ranitsautya.github.io/Spotify-clone/
